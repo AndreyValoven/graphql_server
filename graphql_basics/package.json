@@ -1,0 +1,20 @@
+{
+  "name": "graphql_basics",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Andrey Valoven",
+  "license": "MIT",
+  "scripts": {
+    "start": "$(npm bin)/nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2",
+    "node-fetch": "^2.1.2",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
